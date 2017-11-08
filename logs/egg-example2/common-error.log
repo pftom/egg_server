@@ -1,0 +1,15 @@
+2017-11-08 22:14:03,553 ERROR 8889 [-/127.0.0.1/-/37ms POST /users/login/] nodejs.TypeError: this.ctx.validate is not a function
+    at UserController.login (/Users/pftom/Projects/Node/egg-example2/app/controller/users.js:18:16)
+    at next (native)
+    at onFulfilled (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:65:19)
+    at /Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:54:5
+    at Object.co (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:118:63)
+    at next (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:69:7)
+    at /Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:54:5
+    at Object.co (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:50:10)
+
+pid: 8889
+hostname: huangweideMacBook-Pro.local
+

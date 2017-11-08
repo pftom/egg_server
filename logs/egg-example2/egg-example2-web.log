@@ -1,0 +1,16 @@
+2017-11-08 22:08:35,904 WARN 8390 [-/127.0.0.1/-/25ms POST /users/login/] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-11-08 22:08:35,907 WARN 8390 [-/127.0.0.1/-/27ms POST /users/login/] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/pftom/Projects/Node/egg-example2/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/app/extend/context.js:139:17)
+    at Object.csrf (/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (/Users/pftom/Projects/Node/egg-example2/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:65:19)
+    at /Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:54:5
+    at Object.co (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/pftom/Projects/Node/egg-example2/node_modules/co/index.js:118:63)
+message: 'missing csrf token'
+pid: 8390
+hostname: huangweideMacBook-Pro.local
+
