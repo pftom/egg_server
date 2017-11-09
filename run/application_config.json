@@ -31,6 +31,7 @@
         "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp/config/locales",
         "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view/config/locales",
         "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-mysql/config/locales",
         "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/locales",
         "/Users/pftom/Projects/Node/egg-example2/config/locales"
       ],
@@ -61,7 +62,17 @@
       "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": false,
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "matching": "<Function anonymous>"
+      },
       "xframe": {
         "enable": true,
         "value": "SAMEORIGIN",
@@ -151,6 +162,21 @@
       "lstripBlocks": false,
       "cache": false
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "mysql.com",
+        "port": "3306",
+        "user": "test_user",
+        "password": "<String len: 13>",
+        "database": "test_one"
+      }
+    },
     "env": "local",
     "name": "egg-example2",
     "keys": "<String len: 14>",
@@ -172,6 +198,7 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^1.10.0",
+        "egg-mysql": "^3.0.0",
         "egg-view-nunjucks": "^2.1.4",
         "moment": "^2.19.1"
       },
@@ -273,18 +300,6 @@
     "clusterClient": {
       "responseTimeout": 60000
     },
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
-    "middleware": [
-      "robot"
-    ],
-    "robot": {
-      "ua": [
-        {}
-      ]
-    },
     "coreMiddlewares": [
       "meta",
       "siteFile",
@@ -296,12 +311,8 @@
       "i18n",
       "securities"
     ],
-    "appMiddlewares": [
-      "robot"
-    ],
-    "appMiddleware": [
-      "robot"
-    ],
+    "appMiddlewares": [],
+    "appMiddleware": [],
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -471,6 +482,17 @@
       "from": "/Users/pftom/Projects/Node/egg-example2/config/plugin.js",
       "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks",
       "version": "2.1.4"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/pftom/Projects/Node/egg-example2/config/plugin.js",
+      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

@@ -39,16 +39,7 @@
       "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": {
-        "enable": true,
-        "useSession": false,
-        "ignoreJSON": false,
-        "cookieName": "csrfToken",
-        "sessionName": "csrfToken",
-        "headerName": "x-csrf-token",
-        "bodyName": "_csrf",
-        "queryName": "_csrf"
-      },
+      "csrf": false,
       "xframe": {
         "enable": true,
         "value": "SAMEORIGIN"

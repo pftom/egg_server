@@ -2,8 +2,10 @@
 module.exports = app => {
   class EventsController extends app.Controller {
     * getEvents() {
+      // get the context of this controller for convenient
+      const { ctx } = this;
       // get the query params headline & active
-      const { headline, active, page } = this.ctx.query;
+      const { headline, active, page } = ctx.query;
       // if need carousel, do this work flow
       if (headline) {
         // do something
@@ -18,7 +20,8 @@ module.exports = app => {
       if (page) {
         // do something
       }
-      this.ctx.body = `
+
+      ctx.body = `
         headline: ${headline},
         active: ${active},
         page: ${page},
@@ -26,8 +29,10 @@ module.exports = app => {
     }
 
     * getSingleEvent() {
+      // get the context of this controller for convenient
+      const { ctx } = this;
       // get the query id for event
-      const eventId = this.ctx.params.id;
+      const eventId = ctx.params.id;
       this.ctx.body = `user: ${eventId}`;
     }
   }

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "egg": "^1.10.0",
+    "egg-mysql": "^3.0.0",
     "egg-view-nunjucks": "^2.1.4",
     "moment": "^2.19.1"
   },

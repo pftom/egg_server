@@ -1,5 +1,7 @@
+// add cookies keys
 exports.keys = 'ihaveabigdream';
-// 添加view配置
+
+// add template engine
 exports.view = {
   defaultViewEngine: 'nunjucks',
   mapping: {
@@ -7,25 +9,15 @@ exports.view = {
   },
 };
 
-// 关闭csrf
-exports.security = {
-  csrf: false,
-};
-
-// 添加 news 的配置项
-exports.news = {
-  pageSize: 5,
-  serverUrl: 'https://hacker-news.firebaseio.com/v0',
-};
-
-// config/config.default.js
-// add middleware robot
-exports.middleware = [
-  'robot'
-];
-// robot's configurations
-exports.robot = {
-  ua: [
-    /Baiduspider/i,
-  ]
+// add data config
+exports.mysql = {
+  client: {
+    host: 'mysql.com',
+    port: '3306',
+    user: 'test_user',
+    password: 'test_password',
+    database: 'test_one',
+  },
+  app: true,
+  agent: false,
 };

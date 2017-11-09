@@ -180,3 +180,67 @@
 2017-11-08 22:32:27,387 INFO 8967 [egg-security] use dta middleware
 2017-11-08 22:32:27,387 INFO 8967 [egg-security] compose 6 middlewares into one security middleware
 2017-11-08 22:32:27,414 INFO 8967 [egg-watcher:app] watcher start success
+2017-11-09 21:17:49,290 INFO 3411 [egg:logger] init all loggers with options: {"dir":"/Users/pftom/Projects/Node/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-09 21:17:49,314 INFO 3411 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-09 21:17:49,314 INFO 3411 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-09 21:17:49,378 INFO 3411 [egg-static] starting static serve /public/ -> /Users/pftom/Projects/Node/egg-example2/app/public
+2017-11-09 21:17:49,381 INFO 3411 [egg-security] use methodnoallow middleware
+2017-11-09 21:17:49,382 INFO 3411 [egg-security] use noopen middleware
+2017-11-09 21:17:49,383 INFO 3411 [egg-security] use nosniff middleware
+2017-11-09 21:17:49,384 INFO 3411 [egg-security] use xssProtection middleware
+2017-11-09 21:17:49,385 INFO 3411 [egg-security] use xframe middleware
+2017-11-09 21:17:49,385 INFO 3411 [egg-security] use dta middleware
+2017-11-09 21:17:49,385 INFO 3411 [egg-security] compose 6 middlewares into one security middleware
+2017-11-09 21:17:49,420 INFO 3411 [egg-watcher:app] watcher start success
+2017-11-09 21:53:45,852 INFO 3717 [egg:logger] init all loggers with options: {"dir":"/Users/pftom/Projects/Node/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-09 21:53:45,873 INFO 3717 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-09 21:53:45,873 INFO 3717 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-09 21:53:45,908 INFO 3717 [egg-static] starting static serve /public/ -> /Users/pftom/Projects/Node/egg-example2/app/public
+2017-11-09 21:53:45,910 INFO 3717 [egg-security] use methodnoallow middleware
+2017-11-09 21:53:45,911 INFO 3717 [egg-security] use noopen middleware
+2017-11-09 21:53:45,911 INFO 3717 [egg-security] use nosniff middleware
+2017-11-09 21:53:45,912 INFO 3717 [egg-security] use xssProtection middleware
+2017-11-09 21:53:45,913 INFO 3717 [egg-security] use xframe middleware
+2017-11-09 21:53:45,913 INFO 3717 [egg-security] use dta middleware
+2017-11-09 21:53:45,913 INFO 3717 [egg-security] compose 6 middlewares into one security middleware
+2017-11-09 21:53:45,945 INFO 3717 [egg-watcher:app] watcher start success
+2017-11-09 22:56:49,079 INFO 4585 [egg:logger] init all loggers with options: {"dir":"/Users/pftom/Projects/Node/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-09 22:56:49,099 INFO 4585 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-09 22:56:49,099 INFO 4585 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-09 22:56:49,139 INFO 4585 [egg-static] starting static serve /public/ -> /Users/pftom/Projects/Node/egg-example2/app/public
+2017-11-09 22:56:49,142 INFO 4585 [egg-security] use methodnoallow middleware
+2017-11-09 22:56:49,142 INFO 4585 [egg-security] use noopen middleware
+2017-11-09 22:56:49,143 INFO 4585 [egg-security] use nosniff middleware
+2017-11-09 22:56:49,143 INFO 4585 [egg-security] use xssProtection middleware
+2017-11-09 22:56:49,143 INFO 4585 [egg-security] use xframe middleware
+2017-11-09 22:56:49,144 INFO 4585 [egg-security] use dta middleware
+2017-11-09 22:56:49,144 INFO 4585 [egg-security] compose 6 middlewares into one security middleware
+2017-11-09 22:56:49,177 INFO 4585 [egg-watcher:app] watcher start success
+2017-11-09 23:00:46,941 INFO 4649 [egg:logger] init all loggers with options: {"dir":"/Users/pftom/Projects/Node/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-09 23:00:46,963 INFO 4649 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-09 23:00:46,963 INFO 4649 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-09 23:00:46,973 INFO 4649 [egg-mysql] connecting test_user@mysql.com:3306/test_one
+2017-11-09 23:00:47,045 INFO 4649 [egg-static] starting static serve /public/ -> /Users/pftom/Projects/Node/egg-example2/app/public
+2017-11-09 23:00:47,054 INFO 4649 [egg-security] use csrf middleware
+2017-11-09 23:00:47,058 INFO 4649 [egg-security] use methodnoallow middleware
+2017-11-09 23:00:47,058 INFO 4649 [egg-security] use noopen middleware
+2017-11-09 23:00:47,058 INFO 4649 [egg-security] use nosniff middleware
+2017-11-09 23:00:47,059 INFO 4649 [egg-security] use xssProtection middleware
+2017-11-09 23:00:47,059 INFO 4649 [egg-security] use xframe middleware
+2017-11-09 23:00:47,059 INFO 4649 [egg-security] use dta middleware
+2017-11-09 23:00:47,059 INFO 4649 [egg-security] compose 7 middlewares into one security middleware
+2017-11-09 23:00:47,091 INFO 4649 [egg-watcher:app] watcher start success
+2017-11-09 23:01:02,891 INFO 4676 [egg:logger] init all loggers with options: {"dir":"/Users/pftom/Projects/Node/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-09 23:01:02,911 INFO 4676 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-09 23:01:02,911 INFO 4676 [egg-schedule]: register schedule /Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-09 23:01:02,922 INFO 4676 [egg-mysql] connecting test_user@mysql.com:3306/test_one
+2017-11-09 23:01:03,006 INFO 4676 [egg-static] starting static serve /public/ -> /Users/pftom/Projects/Node/egg-example2/app/public
+2017-11-09 23:01:03,009 INFO 4676 [egg-security] use csrf middleware
+2017-11-09 23:01:03,010 INFO 4676 [egg-security] use methodnoallow middleware
+2017-11-09 23:01:03,011 INFO 4676 [egg-security] use noopen middleware
+2017-11-09 23:01:03,011 INFO 4676 [egg-security] use nosniff middleware
+2017-11-09 23:01:03,012 INFO 4676 [egg-security] use xssProtection middleware
+2017-11-09 23:01:03,012 INFO 4676 [egg-security] use xframe middleware
+2017-11-09 23:01:03,012 INFO 4676 [egg-security] use dta middleware
+2017-11-09 23:01:03,012 INFO 4676 [egg-security] compose 7 middlewares into one security middleware
+2017-11-09 23:01:03,048 INFO 4676 [egg-watcher:app] watcher start success
