@@ -1,237 +1,250 @@
 {
-  "keys": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js",
+  "keys": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js",
+    "defaultViewEngine": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
     "mapping": {
-      ".tpl": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js"
+      ".tpl": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js"
     },
-    "root": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view/config/config.default.js"
+    "root": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "security": {
-    "csrf": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js",
-    "domainWhiteList": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-    "xframe": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
+  "mysql": {
+    "client": {
+      "host": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
+      "port": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
+      "user": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
+      "password": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
+      "database": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js"
     },
-    "hsts": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "dta": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "methodnoallow": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "noopen": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "nosniff": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "xssProtection": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    },
-    "csp": {
-      "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-    }
-  },
-  "news": {
-    "pageSize": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js",
-    "serverUrl": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js"
-  },
-  "middleware": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js",
-  "robot": {
-    "ua": "/Users/pftom/Projects/Node/egg-example2/config/config.default.js"
+    "app": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js",
+    "agent": "C:\\Users\\win7\\Projects\\egg_server\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session/config/config.default.js"
+    "maxAge": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/config/config.local.js",
+    "type": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/config/config.default.js"
+      "default": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/config.default.js"
+    "autoFields": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\config.default.js"
   },
-  "helper": {
-    "shtml": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development/config/config.default.js"
-  },
-  "logrotator": {
-    "filesRotateByHour": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/config.default.js"
-  },
-  "static": {
-    "prefix": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/config.default.js"
-  },
-  "jsonp": {
-    "limit": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp/config/config.default.js"
-  },
-  "nunjucks": {
-    "autoescape": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
-    "throwOnUndefined": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
-    "trimBlocks": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
-    "lstripBlocks": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/config.local.js"
-  },
-  "env": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "name": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "pkg": {
-    "name": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "version": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "description": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "main": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "scripts": {
-      "test": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "dev": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+  "security": {
+    "domainWhiteList": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "keywords": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "author": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "license": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "dependencies": {
-      "egg": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "moment": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "xframe": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "devDependencies": {
-      "egg-bin": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "hsts": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
-  "baseDir": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
+  "helper": {
+    "shtml": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "main": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "author": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "moment": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "ignore": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "bodyparser": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "pageUrl": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "strict": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
+    "enable": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "depth": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+      "arrayLimit": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "env": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "level": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
+    "dir": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.local.js"
+      "consoleLevel": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+      "timeout": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+      "keepAlive": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+      "keepAlive": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "port": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/config.default.js"
+    "responseTimeout": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\config.default.js"
   }
 }

@@ -9,15 +9,8 @@ exports.view = {
   },
 };
 
-// add data config
-exports.mysql = {
-  client: {
-    host: 'mysql.com',
-    port: '3306',
-    user: 'test_user',
-    password: 'test_password',
-    database: 'test_one',
-  },
-  app: true,
-  agent: false,
+// mongoose config here
+exports.mongoose = {
+  url: 'mongodb://127.0.0.1/example',
+  options: {},
 };

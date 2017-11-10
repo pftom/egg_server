@@ -4,14 +4,8 @@ exports.nunjucks = {
   package: 'egg-view-nunjucks'
 };
 
-// database plugin
-exports.mysql = {
+// mongoose plugin
+exports.mongoose = {
   enable: true,
-  package: 'egg-mysql',
-};
-
-// validate plugin
-exports.validate = {
-  enable: true,
-  package: 'egg-validate',
+  package: 'egg-mongoose',
 };

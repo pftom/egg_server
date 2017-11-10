@@ -18,22 +18,22 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-onerror/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-schedule/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-mysql/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/locales",
-        "/Users/pftom/Projects/Node/egg-example2/config/locales"
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-mysql\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\locales",
+        "C:\\Users\\win7\\Projects\\egg_server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -43,8 +43,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -129,7 +129,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/pftom/Projects/Node/egg-example2/app/public",
+      "dir": "C:\\Users\\win7\\Projects\\egg_server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -146,7 +146,7 @@
     },
     "view": {
       "root": [
-        "/Users/pftom/Projects/Node/egg-example2/app/view"
+        "C:\\Users\\win7\\Projects\\egg_server\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -207,9 +207,9 @@
         "egg-mock": "^3.13.1"
       }
     },
-    "baseDir": "/Users/pftom/Projects/Node/egg-example2",
-    "HOME": "/Users/pftom",
-    "rundir": "/Users/pftom/Projects/Node/egg-example2/run",
+    "baseDir": "C:\\Users\\win7\\Projects\\egg_server",
+    "HOME": "C:\\Users\\win7",
+    "rundir": "C:\\Users\\win7\\Projects\\egg_server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -240,7 +240,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/pftom/Projects/Node/egg-example2/logs/egg-example2",
+      "dir": "C:\\Users\\win7\\Projects\\egg_server\\logs\\egg-example2",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -334,8 +334,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-onerror",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-onerror",
       "version": "1.5.0"
     },
     "session": {
@@ -345,8 +345,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-session",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-session",
       "version": "2.1.1"
     },
     "i18n": {
@@ -356,8 +356,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-i18n",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-i18n",
       "version": "1.2.0"
     },
     "watcher": {
@@ -367,8 +367,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-watcher",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-watcher",
       "version": "2.2.0"
     },
     "multipart": {
@@ -378,8 +378,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-multipart",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-multipart",
       "version": "1.5.1"
     },
     "security": {
@@ -391,8 +391,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-security",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-security",
       "version": "1.12.1"
     },
     "development": {
@@ -406,8 +406,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-development",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-development",
       "version": "1.3.2"
     },
     "schedule": {
@@ -417,8 +417,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-schedule",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-schedule",
       "version": "2.6.0"
     },
     "logrotator": {
@@ -430,8 +430,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-logrotator",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-logrotator",
       "version": "2.3.0"
     },
     "static": {
@@ -441,8 +441,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-static",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-static",
       "version": "1.4.1"
     },
     "jsonp": {
@@ -454,8 +454,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-jsonp",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-jsonp",
       "version": "1.2.1"
     },
     "view": {
@@ -465,8 +465,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view",
       "version": "1.1.2"
     },
     "nunjucks": {
@@ -479,8 +479,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-view-nunjucks",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-view-nunjucks",
       "version": "2.1.4"
     },
     "mysql": {
@@ -490,8 +490,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/pftom/Projects/Node/egg-example2/config/plugin.js",
-      "path": "/Users/pftom/Projects/Node/egg-example2/node_modules/egg-mysql",
+      "from": "C:\\Users\\win7\\Projects\\egg_server\\config\\plugin.js",
+      "path": "C:\\Users\\win7\\Projects\\egg_server\\node_modules\\egg-mysql",
       "version": "3.0.0"
     }
   }

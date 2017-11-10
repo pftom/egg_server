@@ -12,9 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "egg": "^1.10.0",
+    "egg-mongoose": "^2.1.1",
     "egg-mysql": "^3.0.0",
     "egg-view-nunjucks": "^2.1.4",
-    "moment": "^2.19.1"
+    "moment": "^2.19.1",
+    "mongoose": "^4.13.1"
   },
   "devDependencies": {
     "egg-bin": "^4.3.5",
